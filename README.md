@@ -21,10 +21,10 @@ The following command line options are supported:
 - "-o <filename_base>" : Base name of output file to which you want the parsed results to be written; "--parsed--(<YYYYMMDD_HHMM>).xlsx" is added automatically
 
 ## Usage Examples
-python breathmint.py -d . -o combined_output
-python breathmint.py -d ~/Documents/burp/output/ -e info,Low
-python breathmint.py -d . -o just_critical_high_medium -i high,MED,cRiTiCaL
-python breathmint.py -f some_burp_file.xml -e Informational,Low,Medium -i Critical,High,Medium
+- python breathmint.py -d . -o combined_output
+- python breathmint.py -d ~/Documents/burp/output/ -e info,Low
+- python breathmint.py -d . -o just_critical_high_medium -i high,MED,cRiTiCaL
+- python breathmint.py -f some_burp_file.xml -e Informational,Low,Medium -i Critical,High,Medium
 
 ## Author
 Matthew Flick
